@@ -1,0 +1,126 @@
+﻿{
+    "repository":  "https://github.com/google-deepmind/mujoco_menagerie",
+    "commit":  "f3b6013629c7b94f8ee93fd977b161fa8350f9bc",
+    "upstream_path":  "robotstudio_so101",
+    "license":  "Apache-2.0",
+    "modified_upstream_files":  [
+
+                                ],
+    "files":  [
+                  {
+                      "path":  "CHANGELOG.md",
+                      "sha256":  "ac7f6205e40f0fb2bc08ff3ff4c5e5092dacf8d78cb03f024ae9aae33738acc4",
+                      "upstream_git_blob_sha":  "d8318d4c49688f8ea714e4dce5349c4958783d0e"
+                  },
+                  {
+                      "path":  "LICENSE",
+                      "sha256":  "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+                      "upstream_git_blob_sha":  "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+                  },
+                  {
+                      "path":  "README.md",
+                      "sha256":  "e2344e7c14290bed85c7907247aecb8bf6cb4392e3de0d7c45680efe9bb9b5a9",
+                      "upstream_git_blob_sha":  "65129dba053c84d2ad384b1922cea46b119e9036"
+                  },
+                  {
+                      "path":  "so101.xml",
+                      "sha256":  "982c02c027ec0c62d3459d0a6eb00dfb7dc13a451992e72ce99addc71f209805",
+                      "upstream_git_blob_sha":  "38bd905c819c8c6d755fecb6394d166944262cce"
+                  },
+                  {
+                      "path":  "assets/base_motor_holder_so101_v1.stl",
+                      "sha256":  "8cd2f241037ea377af1191fffe0dd9d9006beea6dcc48543660ed41647072424",
+                      "upstream_git_blob_sha":  "cac2b8dd98d3d8a6dcdf429b36aaa4b576d82041"
+                  },
+                  {
+                      "path":  "assets/base_so101_v2.stl",
+                      "sha256":  "bb12b7026575e1f70ccc7240051f9d943553bf34e5128537de6cd86fae33924d",
+                      "upstream_git_blob_sha":  "ed10aa61d1181f8001c908ee5cae5c4f970ba417"
+                  },
+                  {
+                      "path":  "assets/motor_holder_so101_base_v1.stl",
+                      "sha256":  "31242ae6fb59d8b15c66617b88ad8e9bded62d57c35d11c0c43a70d2f4caa95b",
+                      "upstream_git_blob_sha":  "9eaf67243a5ffc2dacb3fbd026b4c0620adcdd66"
+                  },
+                  {
+                      "path":  "assets/motor_holder_so101_wrist_v1.stl",
+                      "sha256":  "887f92e6013cb64ea3a1ab8675e92da1e0beacfd5e001f972523540545e08011",
+                      "upstream_git_blob_sha":  "d0aa18b15a9cd63f41fa4d48e82df7a3b618c75d"
+                  },
+                  {
+                      "path":  "assets/moving_jaw_so101_gripper_part0_v1.stl",
+                      "sha256":  "3a92e115d1934d4c45cff808c4eff2ea10361a137a7f89940033a1f8a821b88c",
+                      "upstream_git_blob_sha":  "d8dd83494b31952e2f52432bc9624e74bd241030"
+                  },
+                  {
+                      "path":  "assets/moving_jaw_so101_gripper_part1_v1.stl",
+                      "sha256":  "d10f6c671d26f62988ec95efee9370a0657b5833b3c5f8aad59fd69a87ef2aee",
+                      "upstream_git_blob_sha":  "ed758675140114dbab751f93ea7d40b8d27e4594"
+                  },
+                  {
+                      "path":  "assets/moving_jaw_so101_gripper_v1.stl",
+                      "sha256":  "e8a5dc040b98e27453a5b74f9087d1dbca14589cf9a17c4de7868d5ab98413cd",
+                      "upstream_git_blob_sha":  "f5bd23f855f0d90f73d00abef90576d0c7120719"
+                  },
+                  {
+                      "path":  "assets/moving_jaw_so101_v1.stl",
+                      "sha256":  "785a9dded2f474bc1d869e0d3dae398a3dcd9c0c345640040472210d2861fa9d",
+                      "upstream_git_blob_sha":  "7e8736686592072cf34c7f6e2e6e88f8a3ba60bb"
+                  },
+                  {
+                      "path":  "assets/rotation_pitch_so101_v1.stl",
+                      "sha256":  "9be900cc2a2bf718102841ef82ef8d2873842427648092c8ed2ca1e2ef4ffa34",
+                      "upstream_git_blob_sha":  "5c05dee570623f62c4ab7597d76c7bdea20eacea"
+                  },
+                  {
+                      "path":  "assets/sts3215_03a_no_horn_v1.stl",
+                      "sha256":  "75ef3781b752e4065891aea855e34dc161a38a549549cd0970cedd07eae6f887",
+                      "upstream_git_blob_sha":  "2a89597702f5ec6849b6b1b894c867b35b98ca42"
+                  },
+                  {
+                      "path":  "assets/sts3215_03a_v1.stl",
+                      "sha256":  "a37c871fb502483ab96c256baf457d36f2e97afc9205313d9c5ab275ef941cd0",
+                      "upstream_git_blob_sha":  "fe05403dbfac7a26822b8c8cd0fc3d5288a69fc8"
+                  },
+                  {
+                      "path":  "assets/under_arm_so101_v1.stl",
+                      "sha256":  "d01d1f2de365651dcad9d6669e94ff87ff7652b5bb2d10752a66a456a86dbc71",
+                      "upstream_git_blob_sha":  "480e0583c8bb27ff9affefbebee72b784fb054c8"
+                  },
+                  {
+                      "path":  "assets/upper_arm_so101_v1.stl",
+                      "sha256":  "475056e03a17e71919b82fd88ab9a0b898ab50164f2a7943652a6b2941bb2d4f",
+                      "upstream_git_blob_sha":  "9c0f9b275a51f720476e529c92193f4f69d4784c"
+                  },
+                  {
+                      "path":  "assets/waveshare_mounting_plate_so101_v2.stl",
+                      "sha256":  "e197e24005a07d01bbc06a8c42311664eaeda415bf859f68fa247884d0f1a6e9",
+                      "upstream_git_blob_sha":  "4dba1f22b01ab9afef2466872fcb3e1efca89e38"
+                  },
+                  {
+                      "path":  "assets/wrist_roll_follower_so101_camera_mount.stl",
+                      "sha256":  "58c457b33a26d9c9bb337aa351173e7123f84719a93f486541adef6eba57ae21",
+                      "upstream_git_blob_sha":  "dfe1ecc5e11eb79280c032148ad6ba68a21c431e"
+                  },
+                  {
+                      "path":  "assets/wrist_roll_follower_so101_gripper_part0_v1.stl",
+                      "sha256":  "370eb470a6ab48b08febcaeb5274d2bcc91246692532ce12c795fb82977def72",
+                      "upstream_git_blob_sha":  "7a6bdae516080bd381758fb87cfa48beab3c96b9"
+                  },
+                  {
+                      "path":  "assets/wrist_roll_follower_so101_gripper_v1.stl",
+                      "sha256":  "65f32debcf265420c0160afe004f8befc5df4b3e578fd59ebaa62eade0371224",
+                      "upstream_git_blob_sha":  "279308978e9d64d0bb231968d6169ce78aa0ebde"
+                  },
+                  {
+                      "path":  "assets/wrist_roll_follower_so101_v1.stl",
+                      "sha256":  "4b17b410a12d64ec39554abc3e8054d8a97384b2dc4a8d95a5ecb2a93670f5f4",
+                      "upstream_git_blob_sha":  "123ce374ad3efc240e4d7022f31314e59fe4b0c0"
+                  },
+                  {
+                      "path":  "assets/wrist_roll_pitch_so101_v2.stl",
+                      "sha256":  "6c7ec5525b4d8b9e397a30ab4bb0037156a5d5f38a4adf2c7d943d6c56eda5ae",
+                      "upstream_git_blob_sha":  "ac5172a35e6da3e9fdea21e25803f23cc61e31f1"
+                  }
+              ]
+}

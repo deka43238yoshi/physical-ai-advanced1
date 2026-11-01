@@ -1,0 +1,26 @@
+<mujoco model="so101_dice_approach">
+  <include file="robotstudio_so101/so101.xml"/>
+  <compiler meshdir="robotstudio_so101/assets"/>
+  <option timestep="0.002"/>
+  <worldbody>
+    <camera name="external_overhead" mode="fixed" pos="0 -1 1.4"
+            quat="0.95229551 0.30517743 0 0" fovy="50"/>
+    <site name="initial_mark_left" type="box" pos="0.220 0.015 0.0003"
+          size="0.001 0.026 0.0002" rgba="0.1 0.85 1 1" group="5"/>
+    <site name="initial_mark_right" type="box" pos="0.270 0.015 0.0003"
+          size="0.001 0.026 0.0002" rgba="0.1 0.85 1 1" group="5"/>
+    <site name="initial_mark_bottom" type="box" pos="0.245 -0.010 0.0003"
+          size="0.026 0.001 0.0002" rgba="0.1 0.85 1 1" group="5"/>
+    <site name="initial_mark_top" type="box" pos="0.245 0.040 0.0003"
+          size="0.026 0.001 0.0002" rgba="0.1 0.85 1 1" group="5"/>
+    <geom name="table" type="box" pos="0 0 -0.025" size="0.6 0.45 0.025"
+          friction="0.8 0.01 0.001" condim="6" solref="0.01 1"
+          solimp="0.95 0.99 0.001" rgba="0.55 0.4 0.25 1"/>
+    <body name="dice" pos="0.25 0 0.016">
+      <freejoint name="dice_free"/>
+      <geom name="dice_geom" type="box" size="0.015 0.015 0.015" mass="0.02"
+            friction="0.8 0.01 0.001" condim="6" solref="0.01 1"
+            solimp="0.95 0.99 0.001" rgba="0.95 0.95 0.95 1"/>
+    </body>
+  </worldbody>
+</mujoco>

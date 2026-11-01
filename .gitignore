@@ -1,0 +1,44 @@
+# Generated outputs
+/outputs/
+# Private working documentation
+/local-docs/
+# Python virtual environment
+/.venv/
+venv/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / environment variables
+.env
+*.env
+!.env.example
+
+# Certificates
+certificates/*.crt
+certificates/*.cer
+certificates/*.pem
+certificates/*.key
+
+# VS Code local settings
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old

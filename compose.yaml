@@ -1,0 +1,53 @@
+services:
+  sim:
+    build:
+      context: .
+      target: runtime
+    volumes:
+      - ./outputs:/app/outputs
+    init: true
+
+  test:
+    build:
+      context: .
+      target: test
+    profiles: ["test"]
+    init: true
+
+  visualize:
+    build:
+      context: .
+      target: visualization
+    volumes:
+      - ./outputs:/app/outputs
+    profiles: ["visualization"]
+    init: true
+
+  visualize-test:
+    build:
+      context: .
+      target: visualization-test
+    profiles: ["visualization"]
+    init: true
+
+  learning:
+    image: so101-dice-sim-learning
+    build:
+      context: .
+      target: learning
+    volumes:
+      - ./outputs:/app/outputs
+      - ./src:/app/src:ro
+    profiles: ["learning"]
+    gpus: all
+    shm_size: "2gb"
+    init: true
+
+  learning-offline:
+    extends:
+      service: learning
+    network_mode: none
+    environment:
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+    profiles: ["learning"]

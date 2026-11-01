@@ -1,0 +1,12 @@
+{
+  "scene": "../assets/scene.xml",
+  "duration_s": 5.0,
+  "timestep_s": 0.002,
+  "settle_window_s": 1.0,
+  "linear_speed_limit_m_s": 0.001,
+  "angular_speed_limit_rad_s": 0.01,
+  "height_tolerance_m": 0.001,
+  "face_tolerance_deg": 5.0,
+  "initial_position_m": [0.0, 0.0, 0.48],
+  "initial_quaternion_wxyz": [0.9659258262890683, 0.25881904510252074, 0.0, 0.0]
+}
